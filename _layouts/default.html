@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+    <script>
+      window.onload = onLoad;
+
+      function onLoad() {
+        var scrollTopButton = document.getElementById("scroll-to-top-btn");
+
+        var header = document.getElementsByClassName('page-header')[0];
+        var scrollThreshold = header.clientHeight;
+        
+        window.onscroll = function onScroll() {
+          if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            scrollTopButton.style.opacity = "1";
+          } else {
+            scrollTopButton.style.opacity = "0";
+          }
+        }
+
+        window.onscroll();
+      }
+    
+    </script>
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <img class="avatar" src="https://avatars2.githubusercontent.com/u/4688763?s=200" />
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-credits">
+            <span>This page is powered by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </div>
+    </footer>
+
+    <a id="scroll-to-top-btn" href="#">
+        <span class="arrow"></span>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$footer-color: rgba(255, 255, 255, 0.5);
+
+body {
+    position: relative;
+}
+
+header.page-header {
+    .avatar {
+        border-radius: 50%;
+        border: 1px solid #ccc;
+    }
+}
+
+.lang-icon {
+    font-size: 24px;
+    margin-right: 1rem;
+}
+
+.contacts {
+    & > a {
+        margin-right: .5rem;
+    }
+
+    & > a:hover {
+        text-decoration: none;
+    }
+
+    .contact-icon {
+        font-size: 40px;
+    }
+}
+
+input.task-list-item-checkbox {
+    margin-right: .5rem;
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+
+    border-radius: 50%;
+    background-color: $header-bg-color;
+    background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+    &:hover > span.arrow {
+        border-color: white;
+        margin-top: 10px;
+    }
+
+    span.arrow {
+        border: solid rgba(255, 255, 255, 0.7);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 5px;
+
+        margin-left: 9px;
+        margin-top: 11px;
+
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+}
+
+footer.site-footer {
+    color: $header-heading-color;
+    background-color: $header-bg-color;
+    background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+    padding: 3rem 10rem;
+    position: relative;
+
+    .btn {
+        margin-bottom: 0;
+    }
+
+    .site-footer-credits {
+        color: rgba(255, 255, 255, 0.8);
+        display: block;
+
+        span {
+            display: block;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+}
