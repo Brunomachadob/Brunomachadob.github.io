@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: Bruno Brandão
 description: Here you'll find some information about me and my projects
+google_analytics: UA-173532822-1
 
 plugins:
   - jemoji
