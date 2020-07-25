@@ -1,16 +1,17 @@
 # About me
 
 I'm a knowledge addicted, graduated in Computer Engineering that loves math, physics and astronomy, that happens to also be a passionate Software Engineer.
-With almost 10 years of experience in the software development industry, having worked from really small startups to big international corporations.
+With almost 10 years of experience in the software development industry, having worked from small startups to big international corporations.
 
 Currently living in Berlin :de:, working for [N26](https://n26.com/en-de), helping them build the bank the world loves to use.
 
 ## Hobbies
 
-* :metal: Music, for sure the best invention so far, you can find my [Random Metal](https://open.spotify.com/playlist/7BsDMcxfQoMMeHNk5KCN6G?si=Kmg6rCkyR2qjH_JtqedAmw) playlist on Spotify;
+* :metal: Music, for sure the best invention so far, you can find my [Random Metal](https://open.spotify.com/playlist/7BsDMcxfQoMMeHNk5KCN6G?si=Kmg6rCkyR2qjH_JtqedAmw) playlist on Spotify, :warning: you may find things in there that are heavier than you can handle;
 * <img src="assets/emoji/inline.png" width="20"> Inline skating, you can even find some videos on my [YouTube](https://www.youtube.com/c/BrunoMachadob/videos);
 * :computer: Coding, you can check on my [GitHub](https://github.com/Brunomachadob) and [Gist](https://gist.github.com/Brunomachadob) for some stuff;
-* :video_game: Currently adventuring myself on [The Elder Scrolls V: Skyrim](https://elderscrolls.bethesda.net/en/skyrim).
+* :video_game: Gaming, currently adventuring myself on [The Elder Scrolls V: Skyrim](https://elderscrolls.bethesda.net/en/skyrim);
+* :earth_africa: Travel, although my places to go list is growing faster than I'm able to tick it. You can see a bit of it on [Google Maps](https://maps.app.goo.gl/efL7xVutPsbvhK7B6)
 
 ## Projects and toy applications
 
