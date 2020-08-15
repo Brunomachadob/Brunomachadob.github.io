@@ -29,6 +29,16 @@ I also have plans to use this in quick sessions with people that are interested 
 
 ---
 
+**[Game Studio Fidelity program](https://brunomb.com/smart-game-discounts){:target="_blank"}**
+
+This is a small toy application showcasing a fidelity program that studios would apply on a market place (Steam for example) 
+that would give discounts based on games the users already have in their library.
+
+<i title="React" class="lang-icon devicon-react-original colored"></i>
+<i title="GitHub Pages" class="lang-icon devicon-github-plain colored"></i>
+
+---
+
 **[Word Matcher](https://github.com/Brunomachadob/word-matcher){:target="_blank"}**
 
 This is a toy application I created to help me find a valid possible word based in a input that be either
