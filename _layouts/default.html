@@ -16,6 +16,12 @@
     <script>
       window.onload = onLoad;
 
+      document.addEventListener("DOMContentLoaded", function(){
+          if (window.matchMedia('(prefers-color-scheme)').media !== 'not all') {
+              document.body.className += 'theme-dark'
+          }
+      });
+
       function onLoad() {
         var scrollTopButton = document.getElementById("scroll-to-top-btn");
 

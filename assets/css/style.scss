@@ -3,13 +3,68 @@
 
 @import "{{ site.theme }}";
 
-$footer-color: rgba(255, 255, 255, 0.5);
+$themes: (
+    light: (
+        color: #606c71,
+        backgroundColor: #159957,
+        backgroundImage: linear-gradient(120deg, #155799, #159957)
+    ),
+    dark: (
+        color: #bfbfc7,
+        backgroundColor: #32333a,
+        backgroundImage: none,
+    ),
+);
+
+/*
+ * Implementation of themes
+ */
+@mixin themify($themes) {
+    @each $theme, $map in $themes {
+        &.theme-#{$theme} {
+            $theme-map: () !global;
+            @each $key, $submap in $map {
+                $value: map-get(map-get($themes, $theme), '#{$key}');
+                $theme-map: map-merge($theme-map, ($key: $value)) !global;
+            }
+            @content;
+            $theme-map: null !global;
+        }
+
+        .theme-#{$theme} & {
+            $theme-map: () !global;
+            @each $key, $submap in $map {
+                $value: map-get(map-get($themes, $theme), '#{$key}');
+                $theme-map: map-merge($theme-map, ($key: $value)) !global;
+            }
+            @content;
+            $theme-map: null !global;
+        }
+    }
+}
+
+@function themed($key) {
+    @return map-get($theme-map, $key);
+}
 
 body {
     position: relative;
+
+    @include themify($themes) {
+        background-color: themed('backgroundColor');
+        color: themed('color');
+    }
 }
 
 header.page-header {
+    color: #fff;
+    text-align: center;
+
+    @include themify($themes) {
+        background-color: themed('backgroundColor');
+        background-image: themed('backgroundImage');
+    }
+
     .avatar {
         border-radius: 50%;
         border: 1px solid #ccc;
@@ -74,9 +129,12 @@ input.task-list-item-checkbox {
 }
 
 footer.site-footer {
-    color: $header-heading-color;
-    background-color: $header-bg-color;
-    background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+    @include themify($themes) {
+        color: themed('color');
+        background-color: themed('backgroundColor');
+        background-image: themed('backgroundImage');
+    }
+
     padding: 3rem 10rem;
     position: relative;
 
