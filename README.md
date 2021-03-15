@@ -73,6 +73,8 @@ Unfortunately all the project docs are in Portuguese, the way they needed it.
 <i title="App Engine" class="lang-icon devicon-google-plain colored"></i>
 <i title="GitHub Pages" class="lang-icon devicon-github-plain colored"></i>
 
+---
+
 **[Diffie Hellman](https://gist.github.com/Brunomachadob/34f39128df8fef369a647bdbb8f6d44b){:target="_blank"}**
 
 This is an scratch implementation of Diffie Hellman I created to consolidate the learnings about it.
@@ -84,6 +86,8 @@ You can just copy and past into a IntelliJ IDEA scratch and run.
     </path>
 </svg>
 
+---
+
 **[Onion Routing (Tor)](https://gist.github.com/Brunomachadob/ff675e893328c5adc439aeec078bee37){:target="_blank"}**
 
 This is an scratch implementation of an Onion Routing system I created to consolidate the learnings about it.
@@ -94,6 +98,8 @@ You can just copy and past into a IntelliJ IDEA scratch and run.
     <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
     </path>
 </svg>
+
+---
 
 **[Fluk](https://github.com/Brunomachadob/fluk){:target="_blank"}**
 
@@ -113,6 +119,8 @@ It contains all the basic features expected from the architecture, like:
     </path>
 </svg>
 
+---
+
 **[Timed](https://github.com/Brunomachadob/timed){:target="_blank"}**
 
 This is a toy library I created that implements timers and stop-watchers.
@@ -122,6 +130,8 @@ This is a toy library I created that implements timers and stop-watchers.
     <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
     </path>
 </svg>
+
+---
 
 ## Contacts
 
