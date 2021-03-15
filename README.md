@@ -111,20 +111,3 @@ This is a toy library I created that implements timers and stop-watchers.
 
 <i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
----
-
-## Contacts
-
-Wanna talk about something? You can find me on:
-
-<div class="contacts">
-    <a title="Email" href="mailto:brunomb.web@gmail.com" target="_blank">
-        <i class="contact-icon devicon-google-plain colored"></i>
-    </a>
-    <a title="LinkedIn" href="https://www.linkedin.com/in/brunomachadob/" target="_blank">
-        <i class="contact-icon devicon-linkedin-plain colored"></i>
-    </a>
-    <a title="Facebook" href="https://www.facebook.com/b.machadob/" target="_blank">
-        <i class="contact-icon devicon-facebook-plain colored"></i>
-    </a>
-</div>
