@@ -47,11 +47,7 @@ This is a toy application I created to help me find a valid possible word based 
 
 I probably shouldn't have done this one, this is kinda cheating the games, right? :grimacing:
 
-<svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#F8873C;">
-    <title>Kotlin</title>
-    <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
-    </path>
-</svg>
+<i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
 ---
 
@@ -80,11 +76,7 @@ Unfortunately all the project docs are in Portuguese, the way they needed it.
 This is an scratch implementation of Diffie Hellman I created to consolidate the learnings about it.
 You can just copy and past into a IntelliJ IDEA scratch and run.
 
-<svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#F8873C;">
-    <title>Kotlin</title>
-    <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
-    </path>
-</svg>
+<i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
 ---
 
@@ -93,11 +85,7 @@ You can just copy and past into a IntelliJ IDEA scratch and run.
 This is an scratch implementation of an Onion Routing system I created to consolidate the learnings about it.
 You can just copy and past into a IntelliJ IDEA scratch and run.
 
-<svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#F8873C;">
-    <title>Kotlin</title>
-    <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
-    </path>
-</svg>
+<i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
 ---
 
@@ -113,11 +101,7 @@ It contains all the basic features expected from the architecture, like:
 - [x]  Time travel mechanism
 - [x]  Thread safe store
 
-<svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#F8873C;">
-    <title>Kotlin</title>
-    <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
-    </path>
-</svg>
+<i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
 ---
 
@@ -125,11 +109,7 @@ It contains all the basic features expected from the architecture, like:
 
 This is a toy library I created that implements timers and stop-watchers.
 
-<svg class="lang-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#F8873C;">
-    <title>Kotlin</title>
-    <path d="M11.59 3L3 11.59V4c0-.552.448-1 1-1H11.59zM18.88 4.71L9.58 14l-6.46 6.46C3.04 20.32 3 20.17 3 20v-5.59L14.41 3h3.76C19.07 3 19.51 4.08 18.88 4.71zM18.586 21H5.42l7.785-7.795 6.087 6.087C19.923 19.923 19.477 21 18.586 21z">
-    </path>
-</svg>
+<i title="Kotlin" class="lang-icon devicon-kotlin-plain colored"></i>
 
 ---
 
