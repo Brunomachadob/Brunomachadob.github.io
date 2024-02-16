@@ -6,7 +6,7 @@
   "author": "Bruno Brandão",
   "scripts": {
     "start": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -f -d public",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
