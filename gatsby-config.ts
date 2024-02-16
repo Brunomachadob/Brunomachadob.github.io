@@ -10,6 +10,11 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: ["gatsby-plugin-postcss", {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      "icon": "src/images/icon.png"
+    }
+  }, {
     resolve: 'gatsby-plugin-google-gtag',
     options: {
       trackingIds: ['UA-173532822-1']
