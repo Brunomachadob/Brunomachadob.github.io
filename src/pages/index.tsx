@@ -66,7 +66,7 @@ const IndexPage: React.FC<PageProps> = () => {
               </p>
               <br />
               <p>
-                Currently living in Berlin 🇩🇪, working for
+                Currently living in Berlin 🇩🇪, working for{' '}
                 <Link title="N26" href="https://n26.com/en-de">
                   N26
                 </Link>
@@ -359,9 +359,9 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col items-center p-4">
+      <footer className="flex flex-col items-center p-4 space-y-2">
         <p>
-          This page is hosted by <i className="devicon-github-original"></i> and powered by
+          This page is hosted by <i title='Github Pages' className="devicon-github-original"></i> and powered by
         </p>
         <TehcnologyList
           colored
