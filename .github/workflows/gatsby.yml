@@ -30,8 +30,13 @@ defaults:
     shell: bash
 
 jobs:
+  # Test job
+  test:
+    uses: ./.github/workflows/test.yml
+
   # Build job
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
