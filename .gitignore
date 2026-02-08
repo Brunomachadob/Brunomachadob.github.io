@@ -7,3 +7,5 @@ src/gatsby-types.d.ts
 gha-creds-*.json
 
 .idea
+
+core
