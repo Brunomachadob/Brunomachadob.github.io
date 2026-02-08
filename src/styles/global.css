@@ -7,15 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css');
 
+@utility primary-accent-color {
+    @apply bg-gradient-to-r from-indigo-500 to-blue-500;
+}
+
+@utility primary-accent-text {
+    @apply primary-accent-color font-bold bg-clip-text text-transparent;
+}
+
 @layer components {
-    .primary-accent-color {
-        @apply bg-gradient-to-r from-indigo-500 to-blue-500;
-    }
-
-    .primary-accent-text {
-        @apply primary-accent-color font-bold bg-clip-text text-transparent
-    }
-
     .scroll-to-top-btn {
         bottom: 5%;
         right: 5%;
