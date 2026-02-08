@@ -94,7 +94,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 'spring',
               ]}
             >
-              <p>N26 is building the first you&apos;ll ❤️.</p>
+              <p>N26 is building the first bank you&apos;ll ❤️.</p>
               <p>
                 Currently working for the Platform Engineering domain, which enables our Product
                 Engineers to build awesome products.
